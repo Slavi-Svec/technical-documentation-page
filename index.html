@@ -9,54 +9,52 @@
     </head>
     <body>
 
-    <!-- <nav id="nav-bar"> -->
-        <div class="wrapper">
-            <div class="sidebar">
-                <h2>React logo</h2>
-                <ul>
-                    <li><a href="#">Introducing JSX</a></li>
-                    <li><a href="#">Rendering Elements</a></li>
-                    <li><a href="#">Component and Props</a></li>
-                    <li><a href="#">State and Lifecycle</a></li>
-                    <li><a href="#">Handling Events</a></li>
-                    <li><a href="#">Thinking in React</a></li>
-                </ul>
-            </div>
-        </div>
-    <!-- </nav> -->
 
-        <main id="main-doc">
-            <div class="header">Welcome to React</div>
+         <main id="main-doc">
             <section class="main-section" id="Introducing_JSX">
                 <header>Introducing JSX</header>
-                <!-- <p>Introducing JSX</p>
-                <p>Why JSX?</p>
-                <p>Embedding Expressions in JSX</p>
-                <p>JSX is an Expression Too</p>
-                <p>Specifying Attributes with JSX</p>
-                <p>Specifying Children with JSX<p>
-                <p>JSX Prevents Injection Attacts</p> --> 
+                <h4>Consider this variable declaration:</h4>
+                <code>const element = <h1>Hello, world!</h1>;</code>
+                <p>This funny tag syntax is neither a string nor HTML.
+                    It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript.
+                    JSX produces React “elements”. We will explore rendering them to the DOM in the next section. Below, you can find the basics of JSX necessary to get you started.
+                </p>
+
+                <p><br>React embraces the fact that rendering logic is inherently coupled with other UI logic: how events are handled, how the state changes over time, and how the data is prepared for display.
+                    Instead of artificially separating technologies by putting markup and logic in separate files, React separates concerns with loosely coupled units called “components” that contain both. We will come back to components in a further section, but if you’re not yet comfortable putting markup in JS, this talk might convince you otherwise.
+                    React doesn’t require using JSX, but most people find it helpful as a visual aid when working with UI inside the JavaScript code. It also allows React to show more useful error and warning messages.
+                </p>
             </section>
             <section class="main-section" id="Rendering_Elements">
                 <header>Rendering Elements</header>
+                <h4>Elements are the smallest building blocks of React apps.</h4>
+                <h5>An element describes what you want to see on the screen:</h5>
+                <code>const element = <h1>Hello, world</h1>;</code>
+                <p>Unlike browser DOM elements, React elements are plain objects, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.</p>
             </section>
             <section class="main-section" id="Component_and_Props">
-                <header>Component and Props</header>
+                <header>Component</header>
             </section>
             <section class="main-section" id="State_and_Lifecycle">
-                <header>State and Lifecycle</header>
+                <header>Props</header>
             </section>
             <section class="main-section" id="Handling_Events">
                 <header>Handling Events</header>
             </section>
             <section class="main-section" id="Thinking_in_React">
-                <header>Thinking in React</header>
+                <header>State</header>
             </section>
 
-    </main>
+
+
+
+        </main>
 
   </body>
 </html>
+
+
+
 
 
 

@@ -7,32 +7,38 @@
     font-family: sans-serif;
 }
 
-Body {
+/* Body {
     background: white;
-}
+} */
 
-.wrapper {
+/* .wrapper {
     display: flex;
     position: relative;
-}
+} */
 
-.wrapper .sidebar {
+/* .wrapper .sidebar {
     position: fixed;
     width: 200px;
     height: 100%;
     /* background: #20232a; */
-    background: light pink;
-    padding: 30px 0;
-}
+    /* background: light pink;
+    padding: 30px 0; */
+/* } */
 
-.wrapper .sidebar h2 {
+/* .wrapper .sidebar h2 {
     color: Blue;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px;
-}
-
-/* wrapper .sidebar h2  */
+} */
+/*
+.wrapper .sidebar h2 {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: red;
+    padding: 30px;
+} */
 
 
 
