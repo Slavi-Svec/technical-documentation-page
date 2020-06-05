@@ -3,10 +3,21 @@
     grid-template-columns: minmax(250px, auto) 1fr;
     grid-template-areas: "navbar mainContent";
     grid-gap: 10px;
+
 }
+
+.react-logo1 {
+    width: 50px;
+
+}
+
  #navbar {
     grid-area: navbar;
     position: fixed;
+}
+
+.nav-link {
+   color: #61DBFB;
 }
 
 #navbar a {
@@ -54,6 +65,12 @@ code {
       nav#navbar {
       position: inherit;
     }
+    
+    nav-link {
+        border: 2px solid red;
+    }
+
+
   }
 
 
