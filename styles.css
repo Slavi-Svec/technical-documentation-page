@@ -6,9 +6,20 @@
 
 }
 
-.react-logo1 {
-    width: 50px;
+.react-logo {
+    width: 90px;
+}
 
+.react-logo-title {
+    width: 215px;
+}
+
+.react-heading-small {
+    font-size: 0.01px
+}
+
+.react-heading {
+    margin-top: 26px;
 }
 
  #navbar {
@@ -26,6 +37,8 @@
     margin: 15px 0;
     text-decoration: none;
     color: black;
+    border: 2px solid #00d8ff;
+
 }
 
 #main-doc {
@@ -46,6 +59,13 @@ code {
     display: block;
     padding: 15px;
 }
+#code-one {
+    margin-left: 9px;
+}
+
+xmp {
+    margin: 0px;
+}
 
 /* @media screen and (max-width: 700px) {
     div.main-body {
@@ -65,10 +85,15 @@ code {
       nav#navbar {
       position: inherit;
     }
+    .react-logo {
+        width: 90px;
     
-    nav-link {
-        border: 2px solid red;
     }
+    
+    .react-logo-title {
+        width: 215px;
+    }
+
 
 
   }
