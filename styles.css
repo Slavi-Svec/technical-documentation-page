@@ -42,7 +42,6 @@
     color: black;
     border: 2px solid #00d8ff;
     font-weight: 450;
-
 }
 
 nav a:hover {
@@ -66,16 +65,14 @@ code {
     display: block;
     padding: 15px;
     border-radius: 10px;
-
-}
-#code-one {
-    margin-left: 9px;
 }
 
 xmp {
     margin: 0px;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
-
+}
+code {
+    font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
 }
 
 @media screen and (max-width: 600px) {
@@ -85,18 +82,17 @@ xmp {
     }
       nav#navbar {
       position: inherit;
+
     }
     .react-logo {
         width: 90px;
         margin-left: 200px;
     }
+
     .react-logo-title {
         width: 215px;
         margin-left: 134px;
     }
-
-
-
   }
 
 
